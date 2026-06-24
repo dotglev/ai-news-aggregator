@@ -1,0 +1,47 @@
+# --- Next.js / Node.js Rules ---
+
+# Dependencies
+# This is the folder that caused your 124MB error!
+node_modules/
+
+# Next.js build output
+.next/
+out/
+build/
+
+# Testing and coverage
+coverage/
+
+# Miscellaneous system files
+.DS_Store
+*.pem
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment variables (Secrets)
+.env
+.env*.local
+
+# Vercel deployment settings
+.vercel
+
+# TypeScript build info
+*.tsbuildinfo
+next-env.d.ts
+
+
+# --- Python Rules (For your backend) ---
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Python environment variables
+.env.local
